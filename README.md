@@ -1,12 +1,17 @@
 # JellyfinActorImageTool
 
 ## 功能说明
+
 修复TMM下载演员头像在Jellyfin中不显示问题
 
 ## 使用方法
+
 1. 将 video_dir 和 jellyfin_actor_dir 替换成实际的视频目录和 Jellyfin 演员头像目录
+
+```
 video_dir = "/volume1/video/Movie"
 jellyfin_actor_dir = "/volume1/docker/jellyfin/config/metadata/People"
+```
 
 2. 执行程序
 ```python
